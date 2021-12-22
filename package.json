@@ -1,0 +1,36 @@
+{
+  "name": "near",
+  "description": "some",
+  "version": "2.0.0",
+  "main": "index.web.js",
+  "license": "ISC",
+  "author": "Eldar",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "near",
+    "components": [
+      {
+        "name": "Example",
+        "manifest": "./src/components/Example/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.44",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^17.0.2",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "big.js": "^6.1.1",
+    "near-api-js": "^0.44.2",
+    "prop-types": "^15.7.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
